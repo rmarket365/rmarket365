@@ -1,0 +1,176 @@
+{
+    "categories": [
+        {
+            "name": "Top Products",
+            "id": "top-cat-f1",
+            "products": [
+                {
+                    "name": "French Fries Testy Food",
+                    "id": "top-pro-f1",
+                    "active": true,
+                    "out_of_stock": false,
+                    "thumbnail_path": "products/1.jpg",
+                    "additional_shipping_charge":"0",
+                    "tax_percentage": "0",
+                    "price": "1000",
+                    "old_price": "1200",
+                    "details_link": null,
+                    "details": "<img src=\"products/1.jpg\"><br>Lorem enim esse do occaecat veniam. Ad ad excepteur nisi reprehenderit. Pariatur dolor non in quis aliqua magna culpa irure ipsum aute sit magna. Exercitation duis non quis occaecat eiusmod anim commodo incididunt tempor tempor dolore.\n\nEst sunt sunt quis aliquip ea proident id tempor commodo Lorem et. Consequat mollit et adipisicing irure non esse nisi in. Anim voluptate velit eu ullamco tempor amet enim amet consectetur. Aliquip consequat incididunt Lorem mollit dolore non labore enim deserunt non aliquip fugiat.",
+                    "options": [
+                        {
+                            "title": "Sprinkler Choice",
+                            "values": [
+                                {
+                                    "value_name": "French Fries Regular",
+                                    "value": "french-fries-regular",
+                                    "addon_price": ""
+                                },
+                                {
+                                    "value_name": "Schezwan Sprinkler",
+                                    "value": "schezwan-sprinkler",
+                                    "addon_price": "7"
+                                },
+                                {
+                                    "value_name": "Tomato Tango",
+                                    "value": "tomato-tango",
+                                    "addon_price": "2"
+                                },
+                                {
+                                    "value_name": "Cheese Chilly",
+                                    "value": "cheese-chilly",
+                                    "addon_price": "7"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "French Fries Testy Food",
+                    "id": "top-pro-f2",
+                    "active": true,
+                    "out_of_stock": false,
+                    "thumbnail_path": "products/1.jpg",
+                    "additional_shipping_charge":"0",
+                    "tax_percentage": "0",
+                    "price": "1000",
+                    "old_price": "1200",
+                    "details_link": null,
+                    "details": "<img src=\"products/1.jpg\"><br>Lorem enim esse do occaecat veniam. Ad ad excepteur nisi reprehenderit. Pariatur dolor non in quis aliqua magna culpa irure ipsum aute sit magna. Exercitation duis non quis occaecat eiusmod anim commodo incididunt tempor tempor dolore.\n\nEst sunt sunt quis aliquip ea proident id tempor commodo Lorem et. Consequat mollit et adipisicing irure non esse nisi in. Anim voluptate velit eu ullamco tempor amet enim amet consectetur. Aliquip consequat incididunt Lorem mollit dolore non labore enim deserunt non aliquip fugiat.",
+                    "options": [
+                        {
+                            "title": "Sprinkler Choice",
+                            "values": [
+                                {
+                                    "value_name": "French Fries Regular",
+                                    "value": "french-fries-regular",
+                                    "addon_price": ""
+                                },
+                                {
+                                    "value_name": "Schezwan Sprinkler",
+                                    "value": "schezwan-sprinkler",
+                                    "addon_price": "7"
+                                },
+                                {
+                                    "value_name": "Tomato Tango",
+                                    "value": "tomato-tango",
+                                    "addon_price": "2"
+                                },
+                                {
+                                    "value_name": "Cheese Chilly",
+                                    "value": "cheese-chilly",
+                                    "addon_price": "7"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Top Selling",
+            "id": "top-cat-s2",
+            "products": [
+                {
+                    "name": "French Fries Testy Food",
+                    "id": "top-pro-s1",
+                    "active": true,
+                    "out_of_stock": false,
+                    "thumbnail_path": "products/1.jpg",
+                    "additional_shipping_charge":"0",
+                    "tax_percentage": "0",
+                    "price": "1000",
+                    "old_price": "1200",
+                    "details_link": null,
+                    "details": "<img src=\"products/1.jpg\"><br>Lorem enim esse do occaecat veniam. Ad ad excepteur nisi reprehenderit. Pariatur dolor non in quis aliqua magna culpa irure ipsum aute sit magna. Exercitation duis non quis occaecat eiusmod anim commodo incididunt tempor tempor dolore.\n\nEst sunt sunt quis aliquip ea proident id tempor commodo Lorem et. Consequat mollit et adipisicing irure non esse nisi in. Anim voluptate velit eu ullamco tempor amet enim amet consectetur. Aliquip consequat incididunt Lorem mollit dolore non labore enim deserunt non aliquip fugiat.",
+                    "options": [
+                        {
+                            "title": "Sprinkler Choice",
+                            "values": [
+                                {
+                                    "value_name": "French Fries Regular",
+                                    "value": "french-fries-regular",
+                                    "addon_price": ""
+                                },
+                                {
+                                    "value_name": "Schezwan Sprinkler",
+                                    "value": "schezwan-sprinkler",
+                                    "addon_price": "7"
+                                },
+                                {
+                                    "value_name": "Tomato Tango",
+                                    "value": "tomato-tango",
+                                    "addon_price": "2"
+                                },
+                                {
+                                    "value_name": "Cheese Chilly",
+                                    "value": "cheese-chilly",
+                                    "addon_price": "7"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "French Fries Testy Food",
+                    "id": "top-pro-s2",
+                    "active": true,
+                    "out_of_stock": false,
+                    "thumbnail_path": "products/1.jpg",
+                    "additional_shipping_charge":"0",
+                    "tax_percentage": "0",
+                    "price": "1000",
+                    "old_price": "1200",
+                    "details_link": null,
+                    "details": "<img src=\"products/1.jpg\"><br>Lorem enim esse do occaecat veniam. Ad ad excepteur nisi reprehenderit. Pariatur dolor non in quis aliqua magna culpa irure ipsum aute sit magna. Exercitation duis non quis occaecat eiusmod anim commodo incididunt tempor tempor dolore.\n\nEst sunt sunt quis aliquip ea proident id tempor commodo Lorem et. Consequat mollit et adipisicing irure non esse nisi in. Anim voluptate velit eu ullamco tempor amet enim amet consectetur. Aliquip consequat incididunt Lorem mollit dolore non labore enim deserunt non aliquip fugiat.",
+                    "options": [
+                        {
+                            "title": "Sprinkler Choice",
+                            "values": [
+                                {
+                                    "value_name": "French Fries Regular",
+                                    "value": "french-fries-regular",
+                                    "addon_price": ""
+                                },
+                                {
+                                    "value_name": "Schezwan Sprinkler",
+                                    "value": "schezwan-sprinkler",
+                                    "addon_price": "7"
+                                },
+                                {
+                                    "value_name": "Tomato Tango",
+                                    "value": "tomato-tango",
+                                    "addon_price": "2"
+                                },
+                                {
+                                    "value_name": "Cheese Chilly",
+                                    "value": "cheese-chilly",
+                                    "addon_price": "7"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
