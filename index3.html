@@ -151,7 +151,6 @@
                 <div class="col-4 text-right"><a href="index.html">First</a></div><div class="col-4 text-center"><a href="index2.html">Second</a></div><div class="col-4 text-left"><a href="index3.html">Third</a></div>
               </div>
             </div>
-
           </div>
 		  
         </div>
@@ -737,10 +736,8 @@
     <!-- WhatsApp order template -->
 
     <script type="text/template" class="whatsapp-order-template">
-      ```
    New Order @ <%- _oData.configOptions.storeName %>
 
-  40, Malda Shivar, Malegaon
   **************************
 
   Order#     : <%- _oData.orderId %>
@@ -785,8 +782,8 @@
     Please feel free to
     contact me if you need 
     any order information.
-    +91-8626004225
-    www.rmarket365.com
+    +91-9768822595
+    www.thepositivit.com
 
       Thank you
       ```
@@ -839,7 +836,7 @@
       $("body").whatsAppInstaOrder({
         // data url for products json
         // set if other than default
-        dataUrl: "products/products.json",
+        dataUrl: "products/electronics.json",
         siteBaseUrl: "",
         // whatever to force fresh data or not
         forceFresh: true,
@@ -875,7 +872,7 @@
               },
               // will enable the table number field
               table: {
-                enable: true,
+                enable: false,
                 title: "Table",
               },
             },
