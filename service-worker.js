@@ -8,16 +8,18 @@ const APP_NAME = 'R Market 365 Whatsapp Store';
 let resourcesToCache = ["./",
 "./index.html", // you may need to set to your page name if this different than pwa-example.html
 "./products/products.json", // your product json may be different
+"./products/fashion.json",
+"./products/electronics.json",
 "./logo.png", // your logo may be different
 './assets/ico/favicon-32x32.png ',
 './assets/ico/android-chrome-192x192.png',
 './assets/ico/android-chrome-512x512.png',
 './pwa.manifest',
-'./assets/lw-jquery-whatsapp-insta-order/css/lw-jquery-rmarket-whatsapp.css',
-'./assets/lw-jquery-whatsapp-insta-order/js/lw-jquery-rmarket-whatsapp.js',
-'./assets/lw-jquery-whatsapp-insta-order/img/ajax-loader.gif',
-'./assets/lw-jquery-whatsapp-insta-order/img/broken.png',
-'./assets/lw-jquery-whatsapp-insta-order/img/image-broken.png',
+'./assets/lw-jquery-rmarket-whatsapp/css/lw-jquery-rmarket-whatsapp.css',
+'./assets/lw-jquery-rmarket-whatsapp/js/lw-jquery-rmarket-whatsapp.js',
+'./assets/lw-jquery-rmarket-whatsapp/img/ajax-loader.gif',
+'./assets/lw-jquery-rmarket-whatsapp/img/broken.png',
+'./assets/lw-jquery-rmarket-whatsapp/img/image-broken.png',
 './assets/packages/fontawesome-free-5.11.2-web/css/all.min.css',
 './assets/packages/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.woff2',
 './assets/packages/fontawesome-free-5.11.2-web/webfonts/fa-solid-900.woff',
@@ -69,10 +71,3 @@ self.addEventListener('activate', event => {
 });
 
 
-//   service worker
-if ("serviceWorker" in navigator) {
-    //   register service worker
-    navigator.serviceWorker.register("service-worker.js");
-  } else {
-    console.log("Service worker is not supported");
-  }
