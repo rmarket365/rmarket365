@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #e2e9fe;
+}
+
+p {
+    font-size: 15px;
+    color: #8480ae;
+}
+
+.preview-wrapper {
+    width: 100%;
+    z-index: 10;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    max-width: 90%;
+}
+
+.btn {
+    border: 0;
+    font-size: 16px;
+    padding: 1.125rem 1.75rem;
+    border-radius: 12rem;
+    line-height: 1;
+}
+
+.big-image img {
+    max-height: 100%;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 479px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+}
