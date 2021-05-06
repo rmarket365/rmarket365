@@ -40,6 +40,7 @@
       sizes="16x16"
       href="assets/ico/favicon-16x16.png"
     />
+    <link rel="manifest" href="pwa.manifest" />
     
   </head>
   <!-- do not remove bs-4, used for theme recognition -->
@@ -906,6 +907,14 @@
         // per page item for the load more pagination
         perPageCount: 10,
       });
+
+      //   service worker
+      if ("serviceWorker" in navigator) {
+          //   register service worker
+          navigator.serviceWorker.register("service-worker.js");
+        } else {
+          console.log("Service worker is not supported");
+        }
     
     </script>
 
