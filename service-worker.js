@@ -7,11 +7,7 @@ const APP_NAME = 'R Market 365';
 */
 let resourcesToCache = ["./",
 "./index1.html", // you may need to set to your page name if this different than pwa-example.html
-"./index2.html", // you may need to set to your page name if this different than pwa-example.html
-"./index3.html", // you may need to set to your page name if this different than pwa-example.html
 "./products/products.json", // your product json may be different
-"./products/fashion.json", // your product json may be different
-"./products/electronics.json", // your product json may be different
 "./logo.png", // your logo may be different
 './assets/ico/favicon-32x32.png ',
 './assets/ico/android-chrome-192x192.png',
