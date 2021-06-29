@@ -6,9 +6,8 @@ const APP_NAME = 'R Market 365';
 // cache storage (this will help us use our app offline)
 */
 let resourcesToCache = ["./",
-"./index.html", // you may need to set to your page name if this different than pwa-example.html
- // your product json may be different
-"./logo.png", // your logo may be different
+"./index.html",
+"./logo.png",
 './assets/ico/favicon-32x32.png ',
 './assets/ico/android-chrome-192x192.png',
 './assets/ico/android-chrome-512x512.png',
