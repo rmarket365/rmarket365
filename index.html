@@ -98,9 +98,9 @@
           <div class="lw-sidebar-overlay" style="display: none"></div>
 
           <div class="col-lg-9 col-md-8 col-sm-12 lw-main-area offset-lg-3 offset-md-4">
-            <div class="mb-5 lw-search-container text-center">
+            <div class="lw-search-container text-center">
               <img id="storeLogo" src="logo.png" alt="Logo" />
-              <div class="input-group mt-md-5">
+              <div class="input-group mt-md-3">
                 <div class="input-group-prepend lw-spotlight-search-text">
                   <span class="input-group-text">Search</span>
                 </div>
@@ -120,11 +120,12 @@
                 </div>
               </div>
               <!-- /input-group -->
-              <h5
-                class="text-center mt-2 text-info"
+              <p
+                class="text-center text-info"
                 id="searchedProductCounts"
-              ></h5>
+              ></p>
             </div>
+			
             <!-- Breadcrumb -->
             <nav class="lw-breadcrumb-container" aria-label="breadcrumb">
               <ol class="breadcrumb" id="productsBreadcrumb">
@@ -236,7 +237,7 @@
 				<div class="form-group row">
 					<label for="mobile_number" class="col-sm-3 col-md-3 col-lg-3 control-label"><strong class="color-red">*</strong> Mobile: </label>
 					<div class="col-sm-6 col-md-6 col-lg-6">
-					  <input type="number" name="mobile_number" minlength="" maxlength="15" value="" id="mobile_number" class="form-control required" required>
+					  <input type="number" name="mobile_number" minlength="10" maxlength="10" value="" id="mobile_number" class="form-control required" required>
 					</div>
 				</div>
            <!--  /Mobile Number -->
@@ -902,13 +903,7 @@
         perPageCount: 12,
       });
 
-      //   service worker
-      if ("serviceWorker" in navigator) {
-          //   register service worker
-          navigator.serviceWorker.register("service-worker.js");
-        } else {
-          console.log("Service worker is not supported");
-        }
+      
     
     </script>
 
